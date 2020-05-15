@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".First_respondors"></activity>
+        <activity android:name=".labourRegister"></activity>
+        <activity android:name=".First_respondors" />
         <activity android:name=".Shelter_maps" />
         <activity android:name=".UserProfileedit" />
         <activity android:name=".Mycart" />
@@ -70,8 +71,9 @@
         <activity android:name=".Courses" />
         <activity android:name=".Tollfree" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".DashboardActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
